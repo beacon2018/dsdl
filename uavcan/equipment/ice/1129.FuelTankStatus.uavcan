@@ -6,7 +6,8 @@
 #
 # Reserved for future use.
 #
-void9
+#void9
+uint9 fuel_remained     # Unit: 0.1L
 
 #
 # The estimated amount of fuel.
