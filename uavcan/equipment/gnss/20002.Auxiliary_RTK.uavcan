@@ -1,0 +1,10 @@
+#
+# RTK with double antenna support heading low priority auxiliary info.
+# Unknown parameters should be set to NAN.
+#
+
+uint8 rtk_state    #0:NO SOLUTION, 1:SINGLE, 2:NARROW_INT, 3:NARROW_FLOAT
+uint16 angle_heading     #0deg~355.99deg
+float16 head_deviation
+uint8 head_state     #0:NO SOLUTION, 1:SINGLE, 2:NARROW_INT, 3:NARROW_FLOAT, 4:PSRDIFF
+uint8 reserve
