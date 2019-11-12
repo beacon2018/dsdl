@@ -1,0 +1,8 @@
+#
+# Generic agriculture module extra message
+#
+
+uint16 pump_value_adjust              #send agr pump calid value in liquid mode
+
+float16 reserve1
+uint8 reserve2
